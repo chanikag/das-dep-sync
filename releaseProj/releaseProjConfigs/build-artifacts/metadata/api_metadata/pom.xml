@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.example</groupId>
     <artifactId>releaseProjConfigs_module</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.0-SNAPSHOT</version>
     <relativePath>../../pom.xml</relativePath>
   </parent>
   <groupId>com.example.metadata</groupId>
-  <artifactId>new_metadata</artifactId>
+  <artifactId>api_metadata</artifactId>
   <version>1.0.0</version>
   <packaging>synapse/metadata</packaging>
-  <name>new_metadata</name>
-  <description>new_metadata</description>
+  <name>api_metadata</name>
+  <description>api_metadata</description>
   <build>
     <plugins>
       <plugin>
@@ -28,7 +29,7 @@
           </dependency>
         </dependencies>
         <configuration>
-          <artifact>../../../src/main/resources/metadata/new_metadata.yaml</artifact>
+          <artifact>../../../src/main/resources/metadata/api_metadata.yaml</artifact>
         </configuration>
       </plugin>
     </plugins>

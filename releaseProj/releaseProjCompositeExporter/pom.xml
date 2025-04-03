@@ -1,40 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.example</groupId>
     <artifactId>releaseProj</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.0-SNAPSHOT</version>
   </parent>
   <groupId>com.example</groupId>
   <artifactId>releaseProjCompositeExporter</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.0-SNAPSHOT</version>
   <packaging>carbon/application</packaging>
   <name>releaseProjCompositeExporter</name>
   <description>releaseProjCompositeExporter</description>
   <properties>
-    <com.example.metadata_._new_metadata>capp/EnterpriseServiceBus</com.example.metadata_._new_metadata>
-    <com.example.api_._new>capp/EnterpriseServiceBus</com.example.api_._new>
-    <com.example.metadata_._new_swagger>capp/EnterpriseServiceBus</com.example.metadata_._new_swagger>
+    <com.example.metadata_._api_swagger>capp/EnterpriseServiceBus</com.example.metadata_._api_swagger>
+    <com.example.metadata_._api_metadata>capp/EnterpriseServiceBus</com.example.metadata_._api_metadata>
     <com.example.sequence_._seq1>capp/EnterpriseServiceBus</com.example.sequence_._seq1>
     <artifact.types>jaggery/app=zip,synapse/priority-executor=xml,synapse/inbound-endpoint=xml,service/rule=aar,synapse/message-store=xml,event/stream=json,service/meta=xml,datasource/datasource=xml,synapse/proxy-service=xml,bpel/workflow=zip,synapse/sequence=xml,synapse/endpointTemplate=xml,carbon/application=car,wso2/gadget=dar,synapse/api=xml,synapse/event-source=xml,synapse/message-processors=xml,event/receiver=xml,lib/dataservice/validator=jar,synapse/template=xml,synapse/endpoint=xml,lib/carbon/ui=jar,lib/synapse/mediator=jar,synapse/metadata=yaml,event/publisher=xml,synapse/local-entry=xml,synapse/task=xml,webapp/jaxws=war,registry/resource=zip,synapse/configuration=xml,service/axis2=aar,synapse/lib=zip,synapse/sequenceTemplate=xml,event/execution-plan=siddhiql,service/dataservice=dbs,web/application=war,lib/library/bundle=jar</artifact.types>
+    <com.example.api_._api>capp/EnterpriseServiceBus</com.example.api_._api>
   </properties>
   <dependencies>
     <dependency>
       <groupId>com.example.metadata</groupId>
-      <artifactId>new_metadata</artifactId>
+      <artifactId>api_metadata</artifactId>
       <version>1.0.0</version>
       <type>yaml</type>
     </dependency>
     <dependency>
       <groupId>com.example.metadata</groupId>
-      <artifactId>new_swagger</artifactId>
+      <artifactId>api_swagger</artifactId>
       <version>1.0.0</version>
       <type>yaml</type>
     </dependency>
     <dependency>
       <groupId>com.example.api</groupId>
-      <artifactId>new</artifactId>
+      <artifactId>api</artifactId>
       <version>1.0.0</version>
       <type>xml</type>
     </dependency>

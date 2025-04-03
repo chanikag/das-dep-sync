@@ -1,10 +1,10 @@
 ---
-key: "new-1.0.0"
-name : "new"
-displayName : "new"
+key: "api-1.0.0"
+name : "api"
+displayName : "api"
 description: "Sample API"
 version: "1.0.0"
-serviceUrl: "https://{MI_HOST}:{MI_PORT}/new"
+serviceUrl: "https://{MI_HOST}:{MI_PORT}/api"
 definitionType: "OAS3"
 securityType: "BASIC"
 mutualSSLEnabled: false
