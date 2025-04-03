@@ -4,11 +4,11 @@
   <parent>
     <groupId>com.example</groupId>
     <artifactId>releaseProj</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
   </parent>
   <groupId>com.example</groupId>
   <artifactId>releaseProjCompositeExporter</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1-SNAPSHOT</version>
   <packaging>carbon/application</packaging>
   <name>releaseProjCompositeExporter</name>
   <description>releaseProjCompositeExporter</description>
@@ -23,25 +23,25 @@
     <dependency>
       <groupId>com.example.metadata</groupId>
       <artifactId>new_metadata</artifactId>
-      <version>1.0.0</version>
+      <version>1.0.1-SNAPSHOT</version>
       <type>yaml</type>
     </dependency>
     <dependency>
       <groupId>com.example.metadata</groupId>
       <artifactId>new_swagger</artifactId>
-      <version>1.0.0</version>
+      <version>1.0.1-SNAPSHOT</version>
       <type>yaml</type>
     </dependency>
     <dependency>
       <groupId>com.example.api</groupId>
       <artifactId>new</artifactId>
-      <version>1.0.0</version>
+      <version>1.0.1-SNAPSHOT</version>
       <type>xml</type>
     </dependency>
     <dependency>
       <groupId>com.example.sequence</groupId>
       <artifactId>seq1</artifactId>
-      <version>1.0.0</version>
+      <version>1.0.1-SNAPSHOT</version>
       <type>xml</type>
     </dependency>
   </dependencies>
