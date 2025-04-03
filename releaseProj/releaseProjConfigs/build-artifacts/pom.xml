@@ -4,11 +4,11 @@
   <parent>
     <groupId>com.example</groupId>
     <artifactId>releaseProjConfigs</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
   </parent>
   <groupId>com.example</groupId>
   <artifactId>releaseProjConfigs_module</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>releaseProjConfigs_module</name>
   <description>releaseProjConfigs_module</description>
